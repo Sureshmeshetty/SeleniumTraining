@@ -11,6 +11,7 @@ public class MyTest extends BaseClass {
 
     @Test
     public void checkNavigations(){
+        System.out.println("Test Started");
         homePage = new HomePage(getDriver());
         documentationPage = homePage.navigateToDocumentation();
         homePage = documentationPage.goToHomePage();

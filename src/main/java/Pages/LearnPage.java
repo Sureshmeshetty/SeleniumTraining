@@ -20,6 +20,8 @@ public class LearnPage extends BaseClass {
     WebElement homePageButton;
 
     public LearnPage(WebDriver driver){
+
+        System.out.println("Learn Page");
         this.driver = driver;
         PageFactory.initElements(driver,this);
         Assert.assertTrue(headerWomen.isDisplayed());

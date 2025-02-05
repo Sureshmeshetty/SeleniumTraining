@@ -22,6 +22,8 @@ public class DocumentationPage extends BaseClass {
     WebElement apiAutomatonSubHeader;
 
     public DocumentationPage(WebDriver driver) {
+
+        System.out.println("Documentation Page");
         this.driver = driver;
         PageFactory.initElements(driver,this);
         Assert.assertTrue(headerIntroduction.isDisplayed());

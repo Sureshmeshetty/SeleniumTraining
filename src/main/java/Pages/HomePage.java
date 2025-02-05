@@ -22,6 +22,7 @@ public class HomePage extends CommonUtils{
     WebElement getStartedButton;
 
     public HomePage(WebDriver driver){
+        System.out.println("Home Page");
         this.driver = driver;
         PageFactory.initElements(driver,this);
         Assert.assertTrue(getStartedButton.isDisplayed());
