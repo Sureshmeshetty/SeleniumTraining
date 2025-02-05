@@ -1,7 +1,7 @@
 package StepDefinitions;
 
 public class StepDefs {
-    
+
     public String toString() {
         return super.toString();
     }
